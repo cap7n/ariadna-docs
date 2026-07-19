@@ -22,6 +22,11 @@ Copy the block, fill it in, put newest at the top:
 **Why:** Art questions need one place to check against instead of per-asset taste debates.
 **Status:** Active.
 
+### Navigation is a door graph, not portals
+**Decision:** Connect rooms with a hand-authored bidirectional door graph whose edge-wrap and cross-gap edges fold the map, rather than separate color-coded portal objects.
+**Why:** The wrap edges deliver the same non-Euclidean disorientation with far less machinery, and doors already exist. Portals, if wanted later, become extra graph edges.
+**Status:** Active.
+
 ### Rooms materialize on entry
 **Decision:** Rooms don't exist until entered; each owns a level that rises with visits.
 **Why:** Core to the "familiarity is a trap" pillar — makes backtracking a real cost, not a free reset.

@@ -6,7 +6,7 @@ The whole game is one cycle, tightened by the fact that space itself is unstable
 
 ## Enter
 
-Rooms do not exist until Ariadna enters them. They **materialize at runtime**, and each room carries its own current level. Walking through a door is a commitment: the room that assembles on the other side is scaled to how many times it has been visited.
+Rooms do not exist until Ariadna enters them. They **materialize at runtime**, and each room carries its own current level (`clamp(visits + 1, 1, 5)` — climbing to a cap of 5). Walking through a door is a commitment: the room that assembles on the other side is scaled to how many times it has been visited, and **the door locks behind you** — no immediate backtracking the way you came. See [Rooms](rooms.md).
 
 ## Survive
 

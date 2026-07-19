@@ -68,6 +68,7 @@ plugins:
             Core Loop: Pętla rozgrywki
             Rooms: Pokoje
             Modular Guns: Modułowa broń
+            Enemies: Przeciwnicy
             The Boss: Boss
             World & Tech: Świat i technologia
             Environment: Środowisko
@@ -109,6 +110,7 @@ nav:
       - Core Loop: loop.md
       - Rooms: rooms.md
       - Modular Guns: guns.md
+      - Enemies: enemies.md
       - The Boss: boss.md
   - World & Tech:
       - Environment: environment.md

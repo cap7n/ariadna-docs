@@ -27,7 +27,8 @@ Projekt opiera się na trzech ideach: **napięcie przez eskalację**, **moc budo
 | Obszar | Stan | Uwagi |
 |---|---|---|
 | Modułowy system broni | <span class="pill wip">W toku</span> | Korpus + Chwyt wymagane; Lufa / Kolba / Celownik opcjonalne. Statystyki na żywo. |
-| Strumieniowanie pokoi | <span class="pill wip">Prototyp</span> | Pokoje materializują się przy wejściu; skalowanie poziomu per pokój. |
+| Strumieniowanie pokoi | <span class="pill wip">Prototyp</span> | Wstępnie spawnowani sąsiedzi, wypieczona nawigacja, graf drzwi z zawinięciami; poziomy 1–5. |
+| Przeciwnicy | <span class="pill wip">W toku</span> | Cztery archetypy na wspólnym FSM + utility AI. Na razie tylko slammer zadaje obrażenia. |
 | Pętla rozgrywki | <span class="pill todo">Następne</span> | Wejdź / Przetrwaj / Zbierz / Wróć musi być grywalne od początku do końca. |
 | Boss v1 | <span class="pill todo">Zaplanowane</span> | Eskalacja na sześciu poziomach, poziom nigdy się nie resetuje. |
 | Środowisko i art | <span class="pill wip">Moodboard</span> | Przejście kliniczne → przytłaczające, moodboard zablokowany. |
@@ -52,6 +53,10 @@ Projekt opiera się na trzech ideach: **napięcie przez eskalację**, **moc budo
 - :material-pistol: **[Modułowa broń](guns.md)**
 
     Pięć typów części, warsztat i statystyki na żywo.
+
+- :material-skull: **[Przeciwnicy](enemies.md)**
+
+    Cztery archetypy, jeden wspólny FSM i mózg utility.
 
 </div>
 

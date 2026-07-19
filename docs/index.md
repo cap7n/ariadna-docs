@@ -27,7 +27,8 @@ The design rests on three ideas: **tension through escalation**, **crafted power
 | Area | State | Notes |
 |---|---|---|
 | Modular gun system | <span class="pill wip">In progress</span> | Body + Handle required; Barrel / Stock / Sight optional. Live stats. |
-| Room streaming | <span class="pill wip">Prototype</span> | Rooms materialize on entry; per-room level scaling. |
+| Room streaming | <span class="pill wip">Prototype</span> | Pre-spawned neighbors, nav-baked, door graph with wrap edges; levels 1–5. |
+| Enemies | <span class="pill wip">In progress</span> | Four archetypes on a shared FSM + utility AI. Only the slammer deals damage so far. |
 | Core loop | <span class="pill todo">Next</span> | Enter / Survive / Collect / Return needs to be playable end-to-end. |
 | Boss v1 | <span class="pill todo">Planned</span> | Six-tier escalation, tier never resets. |
 | Environment & art | <span class="pill wip">Moodboard</span> | Clinical → oppressive transition, moodboard locked. |
@@ -52,6 +53,10 @@ The design rests on three ideas: **tension through escalation**, **crafted power
 - :material-pistol: **[Modular Guns](guns.md)**
 
     Five part types, a workbench, and live stats.
+
+- :material-skull: **[Enemies](enemies.md)**
+
+    Four archetypes, one shared FSM and utility brain.
 
 </div>
 

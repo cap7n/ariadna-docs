@@ -32,3 +32,6 @@ Boss jest jednocześnie **wyzwaniem mechanicznym** i **narracyjnym punktem centr
 
 !!! warning "Ryzyko balansu"
     Ponieważ boss jest zawsze dostępny i nigdy się nie cofa, balans musi zapobiec temu, by gracze porywali się na poziom, którego nie mogą pokonać, i blokowali swoje poczucie postępu. Bramkowanie poziomów i tempo nagród to otwarte [decyzje](decisions.md).
+
+!!! note "Poziomy a implementacja"
+    **Sześć poziomów** to cel projektowy. W bieżącej wersji boss ładuje się przez ten sam system pokoi co wszystko inne — `room_boss_lv1…lv5.tscn`, skalowany przez `clamp(wizyty + 1, 1, 5)` — więc dziś istnieje pięć wariantów poziomu. Szósty poziom i trwałość „nigdy się nie resetuje” to zamysł jeszcze nie w pełni okablowany. Zobacz [Pokoje](rooms.md).

@@ -13,10 +13,21 @@ Legenda: <span class="pill wip">W toku</span> w trakcie · <span class="pill tod
 
 ## System pokoi
 
-- <span class="pill wip">W toku</span> Materializacja pokoi w czasie rzeczywistym przy wejściu.
-- <span class="pill wip">W toku</span> Śledzenie poziomu per pokój i skalowanie przeciwników / zagrożeń.
-- <span class="pill todo">Do zrobienia</span> Nawigacja przez portale oznaczone kolorami (nieeuklidesowe przenoszenie).
-- <span class="pill todo">Do zrobienia</span> Układ 16 pokoi w klastrach (NW / NE / SW / SE) + centralna arena bossa.
+- <span class="pill done">Gotowe</span> Układ 16 pokoi w klastrach (NW / NE / SW / SE) + boss + 4 korytarze, okablowane jako graf drzwi.
+- <span class="pill done">Gotowe</span> Nieeuklidesowa nawigacja z zawijaniem (krawędzie zawinięć + skoków przez lukę).
+- <span class="pill done">Gotowe</span> Wstępny spawn sąsiadów: wyrównaj, wypiecz nawigację, zaludnij przed wejściem.
+- <span class="pill done">Gotowe</span> Zamykanie drzwi za graczem przy przejściu.
+- <span class="pill wip">W toku</span> Śledzenie poziomu per pokój i skalowanie (poziomy 1–5, `clamp(wizyty+1,1,5)`).
+- <span class="pill todo">Do zrobienia</span> Stworzenie wariantów poziomów 2–5 dla każdego slotu.
+
+## Przeciwnicy
+
+- <span class="pill done">Gotowe</span> Wspólny FSM (IDLE/REPOSITION/WINDUP/ATTACK/RECOVER) + utility AI + aktywacja wzrokiem.
+- <span class="pill done">Gotowe</span> Cztery archetypy: charger, kiter, ambusher, slammer.
+- <span class="pill done">Gotowe</span> Zdrowie, odrzut, błysk trafienia, znaczniki spawnu.
+- <span class="pill wip">W toku</span> Ścieżki obrażeń — na razie trafia tylko slammer.
+- <span class="pill todo">Do zrobienia</span> Pocisk kitera + zwarcie ambushera.
+- <span class="pill risk">Ryzyko</span> Usunąć tymczasowe pływające liczby obrażeń przed wydaniem (psują klimat grozy).
 
 ## Pętla rozgrywki
 

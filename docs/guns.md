@@ -2,39 +2,61 @@
 
 > Assemble the weapon yourself. Stats update live as parts snap into place.
 
-Power in Ariadna is **crafted**, not looted whole. The player scavenges components across rooms and builds guns on a workbench, watching damage, accuracy, recoil, and range shift in real time as pieces change.
+Power in Ariadna is **crafted**, not looted whole. The player scavenges components across rooms and builds guns from parts, watching the combined stats shift as pieces change.
+
+!!! info "Source"
+    Written from `Scripts/Gun/` and `Scripts/Inventory/`. Parts, stats, and slot counts below are what the code defines today.
 
 ## Components
 
-Five part types. Two are mandatory, three are optional trade-offs:
+Five slot types (`GunPartType`). The **Body** is the spine — every other part attaches to it:
 
-| Part | Required | Primarily affects |
+| Part | Slot | Role |
 |---|---|---|
-| **Body** | ✅ Yes | Core frame — chassis for everything else |
-| **Handle** | ✅ Yes | Handling / control baseline |
-| **Barrel** | Optional | Damage, range |
-| **Stock** | Optional | Recoil, stability |
-| **Sight** | Optional | Accuracy, aim |
+| **Body** | `BODY` | The spine / chassis everything attaches to |
+| **Handle** | `HANDLE` | Grip |
+| **Barrel** | `BARREL` | — |
+| **Stock** | `STOCK` | — |
+| **Sight** | `SIGHT` | — |
 
-A Body + Handle is a working gun. Everything past that is a choice about what to sacrifice for what.
+Each part variant is authored as a `.tres` resource (`GunPartData`) so many versions of a slot can exist — "long barrel," "iron sight," and so on — each with its own stat contribution and mesh.
+
+## Stats
+
+Parts contribute **additively** to four combined stats (`GunStats`). A missing part just contributes zero:
+
+| Stat | Meaning |
+|---|---|
+| **Damage** | Extra damage per shot. |
+| **Accuracy** | Higher = tighter spread. |
+| **Recoil** | Higher = more kick per shot. |
+| **Weight** | Arbitrary units — reserved for movement penalties. |
+
+!!! warning "It's *weight*, not range"
+    The current build tracks **damage / accuracy / recoil / weight**. An earlier GDD listed "range"; the code doesn't. Weight is wired as a stat but its movement penalty isn't hooked up yet.
 
 ## Assembly flow
 
-1. **Five component types** available for customization.
-2. A **workbench interface** with drag, snap-to-slot, and **live stat updates**.
-3. A **96-slot inventory** dedicated to storing weapon parts.
-4. Three tracked states per part: **World**, **Inventory**, and **Assembled**.
+The workbench is diegetic — you don't open a menu, you **put the gun down and work on it**:
+
+1. Press **`O` (place gun)** — the camera tweens to a **top-down view** over the drop point and the player freezes.
+2. Open the **inventory (`I`)** — a **12 × 8 = 96-slot** grid slides in; the 3D view shifts right so parts and gun stay visible.
+3. **Tinker with the mouse** (`MousePartInteractor`) — drag parts between the world, the inventory, and the gun. The gun rejects parts in the wrong slot.
+4. A stat overlay previews the **live combined stats** as parts change.
+5. Pick the gun back up — the camera tweens back to first-person.
+
+Each part tracks one of three states, so systems can query e.g. "every loose Barrel":
 
 ```
-  WORLD  ──pick up──▶  INVENTORY  ──drag to bench──▶  ASSEMBLED
-   (in a room)          (96 slots)                    (live stats)
+  WORLD  ◀──▶  INVENTORY  ◀──▶  ASSEMBLED
+ (dropped)     (96 slots)      (on the gun)
 ```
 
 ## Design intent
 
-The assembly should feel **ritualistic** — metalwork, focused lighting, negative space — rather than a menu of stat bars. The fantasy is a woman methodically building the tool that lets her survive one more return into the maze.
+The assembly should feel **ritualistic** — metalwork, focused lighting, negative space — rather than a stat dropdown. The fantasy is a woman methodically building the tool that lets her survive one more return into the maze.
 
 ---
 
-!!! info "Legacy note"
-    This system aligns with an earlier version of Ariadna's GDD and is presented here as a modern, readable reference for the team. Exact stat weightings live in the `PartRegistry` — treat any numbers here as intent, not gospel.
+!!! info "Where the numbers live"
+    Stat weightings are authored per part in the `.tres` variants and combined by `Gun.get_stats()`. Treat any numbers elsewhere in this wiki as intent; the parts are the source of truth.

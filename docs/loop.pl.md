@@ -6,7 +6,7 @@ Cała gra to jeden cykl, zacieśniony przez to, że sama przestrzeń jest niesta
 
 ## Wejdź
 
-Pokoje nie istnieją, dopóki Ariadna do nich nie wejdzie. **Materializują się w czasie rzeczywistym**, a każdy niesie własny bieżący poziom. Przejście przez drzwi to zobowiązanie: pokój, który składa się po drugiej stronie, jest wyskalowany do tego, ile razy był odwiedzony.
+Pokoje nie istnieją, dopóki Ariadna do nich nie wejdzie. **Materializują się w czasie rzeczywistym**, a każdy niesie własny bieżący poziom (`clamp(wizyty + 1, 1, 5)` — rosnący do limitu 5). Przejście przez drzwi to zobowiązanie: pokój, który składa się po drugiej stronie, jest wyskalowany do tego, ile razy był odwiedzony, a **drzwi zamykają się za tobą** — bez natychmiastowego zawracania tą samą drogą. Zobacz [Pokoje](rooms.md).
 
 ## Przetrwaj
 

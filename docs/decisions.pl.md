@@ -22,6 +22,11 @@ Skopiuj blok, uzupełnij, wstaw najnowsze na górze:
 **Dlaczego:** Pytania o art potrzebują jednego miejsca do sprawdzania, zamiast sporów o gust przy każdym asserta.
 **Status:** Aktywna.
 
+### Nawigacja to graf drzwi, nie portale
+**Decyzja:** Łączyć pokoje ręcznie tworzonym dwukierunkowym grafem drzwi, którego krawędzie zawinięć i skoków przez lukę składają mapę, zamiast osobnych obiektów-portali oznaczonych kolorami.
+**Dlaczego:** Krawędzie zawinięć dają tę samą nieeuklidesową dezorientację przy dużo mniejszej maszynerii, a drzwi już istnieją. Portale, jeśli będą później potrzebne, staną się dodatkowymi krawędziami grafu.
+**Status:** Aktywna.
+
 ### Pokoje materializują się przy wejściu
 **Decyzja:** Pokoje nie istnieją, dopóki się do nich nie wejdzie; każdy ma poziom rosnący z wizytami.
 **Dlaczego:** Kluczowe dla filaru „znajomość to pułapka” — czyni zawracanie realnym kosztem, a nie darmowym resetem.
