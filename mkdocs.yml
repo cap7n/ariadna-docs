@@ -1,0 +1,120 @@
+site_name: Ariadna Design Wiki
+site_description: Design deck & living documentation for Ariadna — a single-player first-person sci-fi horror game.
+site_author: cap7n
+site_url: https://cap7n.github.io/ariadna-docs/
+
+repo_name: cap7n/ariadna-docs
+repo_url: https://github.com/cap7n/ariadna-docs
+edit_uri: edit/main/docs/
+
+copyright: Ariadna — MK Studios
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/spider-thread
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.action.edit
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: pl
+          name: Polski
+          build: true
+          nav_translations:
+            Home: Start
+            Design Pillars: Filary projektu
+            The Game: Gra
+            Narrative: Fabuła
+            Core Loop: Pętla rozgrywki
+            Rooms: Pokoje
+            Modular Guns: Modułowa broń
+            The Boss: Boss
+            World & Tech: Świat i technologia
+            Environment: Środowisko
+            Engine & Runtime: Silnik i runtime
+            Project: Projekt
+            Scope & Milestones: Zakres i kamienie milowe
+            Decision Log: Log decyzji
+            Backlog: Backlog
+            Editing Guide: Jak edytować wiki
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cap7n
+
+nav:
+  - Home: index.md
+  - Design Pillars: pillars.md
+  - The Game:
+      - Narrative: narrative.md
+      - Core Loop: loop.md
+      - Rooms: rooms.md
+      - Modular Guns: guns.md
+      - The Boss: boss.md
+  - World & Tech:
+      - Environment: environment.md
+      - Engine & Runtime: tech.md
+  - Project:
+      - Scope & Milestones: scope.md
+      - Decision Log: decisions.md
+      - Backlog: backlog.md
+      - Editing Guide: editing.md

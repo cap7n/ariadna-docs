@@ -1,0 +1,79 @@
+/* Ariadna Design Wiki — palette overrides
+   Moodboard tones: fear-red, rust-amber, cold memory, dark void. */
+
+:root {
+  --ariadna-red: #c0242b;
+  --ariadna-red-bright: #e23b41;
+  --ariadna-amber: #d98324;
+  --ariadna-void: #0d0c10;
+}
+
+/* Custom "primary" color used by the Material theme header/links. */
+[data-md-color-primary="custom"] {
+  --md-primary-fg-color: var(--ariadna-red);
+  --md-primary-fg-color--light: var(--ariadna-red-bright);
+  --md-primary-fg-color--dark: #8f191e;
+  --md-primary-bg-color: #f5f2ee;
+  --md-primary-bg-color--light: #f5f2eeb3;
+}
+
+/* Dark scheme: deepen the background toward the "void" tone. */
+[data-md-color-scheme="slate"] {
+  --md-hue: 258;
+  --md-default-bg-color: var(--ariadna-void);
+  --md-accent-fg-color: var(--ariadna-amber);
+  --md-typeset-a-color: var(--ariadna-red-bright);
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #131118;
+}
+
+/* Slightly warmer, tighter headings for the "design deck" feel. */
+.md-typeset h1,
+.md-typeset h2 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h1 {
+  color: var(--md-default-fg-color);
+}
+
+/* Section number badges (e.g. "01 ·") styled like the GDD deck. */
+.md-typeset h1 .deck-num,
+.md-typeset h2 .deck-num {
+  color: var(--ariadna-amber);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Status pills used in tables and inline. */
+.pill {
+  display: inline-block;
+  padding: 0.05em 0.55em;
+  border-radius: 1em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+.pill.done   { background: #1f6b3a33; color: #4cc27a; }
+.pill.wip    { background: #b8891733; color: #e0a53a; }
+.pill.risk   { background: #b8341733; color: #e2645a; }
+.pill.todo   { background: #55555533; color: #9aa0a6; }
+
+/* Hero one-liner on the landing page. */
+.hero-pitch {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  font-style: italic;
+  border-left: 3px solid var(--ariadna-red);
+  padding-left: 1rem;
+  margin: 1.2rem 0 1.6rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* Cards grid reused on the landing page. */
+.grid.cards > ul > li {
+  border-radius: 0.6rem;
+}
