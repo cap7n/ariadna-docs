@@ -45,6 +45,7 @@ Legend: <span class="pill wip">WIP</span> in progress · <span class="pill todo"
 - <span class="pill wip">WIP</span> Environment moodboard → in-engine material pass.
 - <span class="pill todo">Todo</span> Post stack: film grain, vignette, chromatic aberration tuning.
 - <span class="pill todo">Todo</span> Audio pass.
+- <span class="pill risk">Risk</span> Spatial music mix: different instruments from different positions in the room to create stereo effect and push.
 - <span class="pill todo">Todo</span> Performance pass (Forward+ / D3D12).
 
 ---
