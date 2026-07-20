@@ -1,6 +1,6 @@
 # 10 · Decision Log
 
-> A running record of design decisions — *log decyzji projektowych* — so we remember **why**, not just **what**.
+> A running record of design decisions, so we remember **why**, not just **what**.
 
 Each entry is short: the decision, the date, and the reasoning. When a decision is reversed, we don't delete it — we add a new entry that supersedes it, so the history stays honest.
 
@@ -45,4 +45,4 @@ Copy the block, fill it in, put newest at the top:
 ---
 
 !!! note "Older entries"
-    The original GDD deck left this section as *"Treść wkrótce"* (content coming soon). The entries above are reconstructed from decisions already visible across the other pages; add real dated entries here as they're made so this becomes the primary record.
+    The original GDD deck left this section as a "content coming soon" placeholder. The entries above are reconstructed from decisions already visible across the other pages; add real dated entries here as they're made so this becomes the primary record.

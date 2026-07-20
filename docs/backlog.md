@@ -1,6 +1,6 @@
 # 11 · Backlog
 
-> The list of things to build — *lista zadań do realizacji*. Grouped by milestone, newest priorities at the top of each group.
+> The list of things to build. Grouped by milestone, newest priorities at the top of each group.
 
 Legend: <span class="pill wip">WIP</span> in progress · <span class="pill todo">Todo</span> not started · <span class="pill risk">Risk</span> needs a decision · <span class="pill done">Done</span> shipped.
 
@@ -50,4 +50,4 @@ Legend: <span class="pill wip">WIP</span> in progress · <span class="pill todo"
 ---
 
 !!! note "Source"
-    The original GDD deck left this section as *"Treść wkrótce"* (content coming soon). The items above are derived from the [Scope](scope.md) milestone path and the systems described across the wiki. Keep this list honest — move things to <span class="pill done">Done</span> only when they're actually in the build.
+    The original GDD deck left this section as a "content coming soon" placeholder. The items above are derived from the [Scope](scope.md) milestone path and the systems described across the wiki. Keep this list honest — move things to <span class="pill done">Done</span> only when they're actually in the build.

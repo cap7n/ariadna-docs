@@ -1,6 +1,6 @@
 # 08 · Scope & Milestones
 
-> What needs to be delivered for the project to be playable. — *Co trzeba dowieźć, żeby projekt był grywalny.*
+> What needs to be delivered for the project to be playable.
 
 The scope is defined by a practical milestone path, ordered so the **fun is proven before content is poured in**.
 

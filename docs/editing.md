@@ -20,7 +20,7 @@ Every page exists twice:
 | Language | File | URL |
 |---|---|---|
 | English (default) | `rooms.md` | `/rooms/` |
-| Polski | `rooms.pl.md` | `/pl/rooms/` |
+| Polish | `rooms.pl.md` | `/pl/rooms/` |
 
 The language switcher in the top bar (**EN / PL**) is generated automatically from these pairs by the `mkdocs-static-i18n` plugin.
 

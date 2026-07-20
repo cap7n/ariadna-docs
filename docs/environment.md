@@ -1,6 +1,6 @@
 # 09 · Environment
 
-> Climate, space, material. — *klimat, przestrzeń, materiał.*
+> Climate, space, material.
 
 The environment carries the horror. The world starts **cold, clinical, technical** and degrades toward **oppressive and surreal** as the labyrinth asserts itself — a visual record of trauma rising to the surface.
 
