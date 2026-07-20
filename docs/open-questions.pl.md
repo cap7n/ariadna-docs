@@ -18,6 +18,12 @@ Skopiuj blok, uzupełnij, wstaw najnowsze na górze:
 
 ## Pytania
 
+### Muzyka: stereo split per instrument
+**Pytanie:** czy soundtrack powinien rozdzielać instrumenty na kanały stereo (lub pozycje przestrzenne), by każdy instrument dawał się manipulować niezależnie w runtime, zamiast robić pre-miksowany stem stereo?
+**Dlaczego jest otwarte:** dynamiczna kontrola na poziomie instrumentów umożliwia reaktywną muzykę (mutowanie/solo warstw, crossfade intensywności per instrument) co mogłoby pogłębić horror psychologiczny lustrując stan Ariadny, ale wymaga przygotowania stemów per utwór, setupu miksera w runtime i może kłócić się z priorytetami audio przestrzennego.
+**Opcje na stole:** gotowe stemy stereo per tier intensywności (najprostsze, najmniej elastyczne), runtime stereo panning per stem z krzywymi automatyzacji, albo pełne 3D audio przestrzenne per instrument zakotwiczone w geometrii pokoju (maksymalna elastyczność, najwyższy koszt produkcji).
+**Odpowiedzialny:** nieprzypisany.
+
 ### Przestrzenny miks muzyki dla immersji
 **Pytanie:** czy różne instrumenty powinny być umiejscowione w różnych pozycjach wokół pokoju, aby stworzyć efekt stereo i "push", zamiast płaskiego miksu stereo?
 **Dlaczego jest otwarte:** przestrzenna muzyka może pogłębić immersję i dezorientację — co pasuje do klimatu horroru — ale zwiększa złożoność produkcji (układy miksu per pokój) i ryzykuje konflikt z dźwiękami rozgrywki.

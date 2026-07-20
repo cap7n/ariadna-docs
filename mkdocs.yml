@@ -80,6 +80,8 @@ plugins:
             Decision Log: Log decyzji
             Open Questions: Otwarte pytania
             Backlog: Backlog
+            3D Backlog: Backlog 3D
+            UI Backlog: Backlog UI
             Editing Guide: Jak edytować wiki
   - git-revision-date-localized:
       type: date
@@ -129,4 +131,6 @@ nav:
       - Open Questions: open-questions.md
       - Decision Log: decisions.md
       - Backlog: backlog.md
+      - 3D Backlog: 3d-backlog.md
+      - UI Backlog: ui-backlog.md
       - Editing Guide: editing.md
