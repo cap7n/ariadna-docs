@@ -9,7 +9,7 @@ Legenda: <span class="pill wip">W toku</span> w trakcie · <span class="pill tod
 - <span class="pill wip">W toku</span> Warsztat: przeciąganie, przyciąganie do slotu, statystyki na żywo.
 - <span class="pill todo">Do zrobienia</span> Przejścia stanów części: Świat → Ekwipunek → Złożona.
 - <span class="pill todo">Do zrobienia</span> UI 96-slotowego ekwipunku części.
-- <span class="pill risk">Ryzyko</span> Ostateczne wagi statystyk per część (obrażenia / celność / odrzut / zasięg).
+- <span class="pill risk">Ryzyko</span> Ostateczne wagi statystyk per część (obrażenia / celność / odrzut / waga). Zobacz [Otwarte pytania](open-questions.md#ostateczne-wagi-statystyk-czesci-broni).
 
 ## System pokoi
 
@@ -27,13 +27,13 @@ Legenda: <span class="pill wip">W toku</span> w trakcie · <span class="pill tod
 - <span class="pill done">Gotowe</span> Zdrowie, odrzut, błysk trafienia, znaczniki spawnu.
 - <span class="pill wip">W toku</span> Ścieżki obrażeń: na razie trafia tylko slammer.
 - <span class="pill todo">Do zrobienia</span> Pocisk kitera + zwarcie ambushera.
-- <span class="pill risk">Ryzyko</span> Usunąć tymczasowe pływające liczby obrażeń przed wydaniem (psują klimat grozy).
+- <span class="pill risk">Ryzyko</span> Usunąć tymczasowe pływające liczby obrażeń przed wydaniem (psują klimat grozy). Zobacz [Otwarte pytania](open-questions.md#kiedy-usunac-pywajace-liczby-obrazen).
 
 ## Pętla rozgrywki
 
 - <span class="pill todo">Do zrobienia</span> Grywalne Wejdź → Przetrwaj → Zbierz → Wróć od początku do końca.
 - <span class="pill todo">Do zrobienia</span> Wypłata nagród: części broni + fragmenty fabuły po oczyszczeniu.
-- <span class="pill risk">Ryzyko</span> Krzywa nagród za ponowne wizyty: lepszy łup vs. niekontrolowana trudność.
+- <span class="pill risk">Ryzyko</span> Krzywa nagród za ponowne wizyty: lepszy łup vs. niekontrolowana trudność. Zobacz [Otwarte pytania](open-questions.md#krzywa-nagrod-za-ponowne-wizyty).
 
 ## Boss
 

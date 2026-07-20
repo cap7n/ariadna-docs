@@ -9,7 +9,7 @@ Legend: <span class="pill wip">WIP</span> in progress · <span class="pill todo"
 - <span class="pill wip">WIP</span> Workbench: drag, snap-to-slot, live stat updates.
 - <span class="pill todo">Todo</span> Part-state transitions: World → Inventory → Assembled.
 - <span class="pill todo">Todo</span> 96-slot part inventory UI.
-- <span class="pill risk">Risk</span> Final stat weightings per part (damage / accuracy / recoil / range).
+- <span class="pill risk">Risk</span> Final stat weightings per part (damage / accuracy / recoil / weight). See [Open Questions](open-questions.md#final-gun-part-stat-weightings).
 
 ## Room system
 
@@ -27,13 +27,13 @@ Legend: <span class="pill wip">WIP</span> in progress · <span class="pill todo"
 - <span class="pill done">Done</span> Health, knockback, hit flash, spawn markers.
 - <span class="pill wip">WIP</span> Damage paths: only the slammer hits so far.
 - <span class="pill todo">Todo</span> Kiter projectile + ambusher melee damage.
-- <span class="pill risk">Risk</span> Remove temporary floating damage numbers before shipping (breaks horror tone).
+- <span class="pill risk">Risk</span> Remove temporary floating damage numbers before shipping (breaks horror tone). See [Open Questions](open-questions.md#when-to-pull-the-floating-damage-numbers).
 
 ## Core loop
 
 - <span class="pill todo">Todo</span> End-to-end Enter → Survive → Collect → Return playable.
 - <span class="pill todo">Todo</span> Reward payout: gun parts + narrative fragments on clear.
-- <span class="pill risk">Risk</span> Revisit reward curve: better loot vs. runaway difficulty.
+- <span class="pill risk">Risk</span> Revisit reward curve: better loot vs. runaway difficulty. See [Open Questions](open-questions.md#revisit-reward-curve).
 
 ## Boss
 
