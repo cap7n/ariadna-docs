@@ -31,7 +31,7 @@ The boss is both a **mechanical challenge** and a **narrative focal point**. His
 | Design goal | Pressure & dread, not conventional monster spectacle |
 
 !!! warning "Balance risk"
-    Because the boss is always accessible and never regresses, tuning has to prevent players from over-reaching into a tier they can't beat and softlocking their sense of progress. Tier gating and reward pacing are open [decisions](decisions.md).
+    Because the boss is always accessible and never regresses, tuning has to prevent players from over-reaching into a tier they can't beat and softlocking their sense of progress. Tier gating and reward pacing are open [questions](open-questions.md).
 
 !!! note "Tiers vs. implementation"
     The **six tiers** are the design target. In the current build the boss loads through the same room system as everything else (`room_boss_lv1…lv5.tscn`, scaled by `clamp(visits + 1, 1, 5)`), so five level variants exist today. The sixth tier and the "never resets" persistence are design intent not yet fully wired. See [Rooms](rooms.md).

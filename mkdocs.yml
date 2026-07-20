@@ -78,6 +78,7 @@ plugins:
             Project: Projekt
             Scope & Milestones: Zakres i kamienie milowe
             Decision Log: Log decyzji
+            Open Questions: Otwarte pytania
             Backlog: Backlog
             Editing Guide: Jak edytować wiki
   - git-revision-date-localized:
@@ -126,5 +127,6 @@ nav:
   - Project:
       - Scope & Milestones: scope.md
       - Decision Log: decisions.md
+      - Open Questions: open-questions.md
       - Backlog: backlog.md
       - Editing Guide: editing.md
