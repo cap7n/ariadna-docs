@@ -4,13 +4,13 @@ Jak pracować nad tym wiki, nie psując go. W skrócie: **edytuj Markdown, trzym
 
 ## Czym jest to wiki
 
-Stroną [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). Każda strona to plik Markdown w `docs/`. Wypchnięcie na `main` uruchamia akcję GitHub, która buduje stronę i publikuje ją na GitHub Pages — nigdy nie budujesz strony na żywo ręcznie.
+Stroną [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). Każda strona to plik Markdown w `docs/`. Wypchnięcie na `master` uruchamia akcję GitHub, która buduje stronę i publikuje ją na GitHub Pages — nigdy nie budujesz strony na żywo ręcznie.
 
 ## Edytowanie strony
 
 1. Znajdź stronę w `docs/` (np. `docs/rooms.md`).
 2. Edytuj Markdown.
-3. Zatwierdź i wypchnij na `main`.
+3. Zatwierdź i wypchnij na `master`.
 4. Akcja przebudowuje i wdraża w minutę lub dwie.
 
 ## Przełącznik języka EN / PL

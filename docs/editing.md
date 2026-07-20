@@ -4,13 +4,13 @@ How to work on this wiki without breaking it. Short version: **edit Markdown, ke
 
 ## What this wiki is
 
-A [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) site. Every page is a Markdown file in `docs/`. Pushing to `main` triggers a GitHub Action that builds the site and publishes it to GitHub Pages — you never build the live site by hand.
+A [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) site. Every page is a Markdown file in `docs/`. Pushing to `master` triggers a GitHub Action that builds the site and publishes it to GitHub Pages — you never build the live site by hand.
 
 ## Editing a page
 
 1. Find the page in `docs/` (e.g. `docs/rooms.md`).
 2. Edit the Markdown.
-3. Commit and push to `main`.
+3. Commit and push to `master`.
 4. The Action rebuilds and deploys in a minute or two.
 
 ## The EN / PL language switch

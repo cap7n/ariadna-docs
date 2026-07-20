@@ -41,4 +41,4 @@ Each page has an English file (`page.md`) and a Polish twin (`page.pl.md`). The 
 
 ## Deploy
 
-Push to `main`. GitHub Actions builds with `mkdocs build --strict` and publishes to GitHub Pages. Enable Pages → *Build and deployment* → **GitHub Actions** once, in the repo settings.
+Push to `master`. GitHub Actions builds with `mkdocs build --strict` and publishes to GitHub Pages. Enable Pages → *Build and deployment* → **GitHub Actions** once, in the repo settings.
