@@ -36,9 +36,9 @@ Core Loop Playable        ◀── the pivot: is it fun yet?
 
 ## Development order
 
-1. **Establish a playable core loop first** — it's the foundation everything else hangs on.
+1. **Establish a playable core loop first**: it's the foundation everything else hangs on.
 2. **Finalize room generation and boss progression early**, before content depends on them.
-3. **Add content only after the loop is confirmed engaging** — no building rooms for a loop that isn't fun.
+3. **Add content only after the loop is confirmed engaging**: no building rooms for a loop that isn't fun.
 4. **Finish with audio, UI refinement, and performance.**
 
 ---

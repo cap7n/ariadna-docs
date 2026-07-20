@@ -2,18 +2,18 @@
 
 > Klimat, przestrzeń, materiał.
 
-Środowisko niesie grozę. Świat zaczyna się jako **zimny, kliniczny, techniczny** i degraduje ku **przytłaczającemu i surrealistycznemu**, w miarę jak labirynt zaczyna się narzucać — wizualny zapis traumy wypływającej na powierzchnię.
+Środowisko niesie grozę. Świat zaczyna się jako **zimny, kliniczny, techniczny** i degraduje ku **przytłaczającemu i surrealistycznemu**, w miarę jak labirynt zaczyna się narzucać, wizualny zapis traumy wypływającej na powierzchnię.
 
 ## Kierunek wizualny
 
 - **Kliniczny → przytłaczający.** Przestrzenie zaczynają się jako sterylne wnętrza ośrodka i wypaczają się w coś złego: zbyt wysokiego, zbyt cichego, subtelnie nieeuklidesowego.
 - **Paleta.** Low-poly retro z ziarnem filmowym i przytłaczającym kontrastem. Robocze tony to **czerwień strachu**, **rdzawy bursztyn**, **zimne** błękity i szarości pamięci oraz **mroczne pustki**.
-- **Kadrowanie bossa.** Ciężka, pionowa forma, niski kontrast — presja zamiast spektaklu.
+- **Kadrowanie bossa.** Ciężka, pionowa forma, niski kontrast: presja zamiast spektaklu.
 - **Kadrowanie składania broni.** Rytualne: metaloplastyka, skupione światło, negatywna przestrzeń.
 
 ## Materiał i klimat
 
-Sekcję zakotwicza **koncepcyjny obraz przewodni (hero)** oraz **galeria moodboardu** (dwanaście obrazów referencyjnych), które ustalają język wizualny przestrzeni i materiału. To klimat — bardziej niż jakikolwiek pojedynczy asset — jest produktem: to, jak *czuje się* stanie w pokoju, znaczy więcej niż liczba jego wielokątów.
+Sekcję zakotwicza **koncepcyjny obraz przewodni (hero)** oraz **galeria moodboardu** (dwanaście obrazów referencyjnych), które ustalają język wizualny przestrzeni i materiału. To klimat, bardziej niż jakikolwiek pojedynczy asset, jest produktem: to, jak *czuje się* stanie w pokoju, znaczy więcej niż liczba jego wielokątów.
 
 ## Zasada tworzenia
 

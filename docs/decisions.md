@@ -2,14 +2,14 @@
 
 > A running record of design decisions, so we remember **why**, not just **what**.
 
-Each entry is short: the decision, the date, and the reasoning. When a decision is reversed, we don't delete it — we add a new entry that supersedes it, so the history stays honest.
+Each entry is short: the decision, the date, and the reasoning. When a decision is reversed, we don't delete it; we add a new entry that supersedes it, so the history stays honest.
 
 ## How to add an entry
 
 Copy the block, fill it in, put newest at the top:
 
 ```markdown
-### YYYY-MM-DD — Short title
+### YYYY-MM-DD: Short title
 **Decision:** what we're doing now.
 **Why:** the reasoning / what it beat.
 **Status:** Active · Superseded by <date>.
@@ -17,7 +17,7 @@ Copy the block, fill it in, put newest at the top:
 
 ## Log
 
-### 2026-07-17 — Moodboard locked
+### 2026-07-17: Moodboard locked
 **Decision:** Freeze the environment moodboard (hero image + twelve references) as the tone source of truth.
 **Why:** Art questions need one place to check against instead of per-asset taste debates.
 **Status:** Active.
@@ -29,7 +29,7 @@ Copy the block, fill it in, put newest at the top:
 
 ### Rooms materialize on entry
 **Decision:** Rooms don't exist until entered; each owns a level that rises with visits.
-**Why:** Core to the "familiarity is a trap" pillar — makes backtracking a real cost, not a free reset.
+**Why:** Core to the "familiarity is a trap" pillar: makes backtracking a real cost, not a free reset.
 **Status:** Active.
 
 ### Boss tier never resets
@@ -39,7 +39,7 @@ Copy the block, fill it in, put newest at the top:
 
 ### Guns are assembled, not looted whole
 **Decision:** Body + Handle mandatory, Barrel / Stock / Sight optional, stats live on a workbench.
-**Why:** Power should feel *crafted* — a set of readable trade-offs, not a stat dropdown.
+**Why:** Power should feel *crafted*: a set of readable trade-offs, not a stat dropdown.
 **Status:** Active.
 
 ---

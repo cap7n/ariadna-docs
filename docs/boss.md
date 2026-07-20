@@ -2,17 +2,17 @@
 
 > A manifestation of Ariadna's abusive father, fought again and again across six escalating tiers.
 
-The boss is the spine of the game. He is not a gate at the end of a run — his room is open **whenever the player wants it** — but he is the one pressure track that only ever climbs.
+The boss is the spine of the game. He is not a gate at the end of a run (his room is open **whenever the player wants it**), but he is the one pressure track that only ever climbs.
 
 ## Access & progression
 
 - The boss room can be entered at **any time**.
 - Progression runs through **six distinct tiers**.
-- **The reached tier never resets.** Once a tier is cleared, it stays cleared — the player can leave, grow stronger elsewhere, and come back to the next tier.
+- **The reached tier never resets.** Once a tier is cleared, it stays cleared. The player can leave, grow stronger elsewhere, and come back to the next tier.
 
 ## Escalation
 
-Each confrontation adds something: more complexity, new environmental hazards, deeper narrative. The father grows larger, stranger, and harder to read. Because tiers don't regress, every visit is a genuine step forward — there's no grinding the same fight, only climbing.
+Each confrontation adds something: more complexity, new environmental hazards, deeper narrative. The father grows larger, stranger, and harder to read. Because tiers don't regress, every visit is a genuine step forward: there's no grinding the same fight, only climbing.
 
 This maps directly onto the narrative: Ariadna kills Oliwier **five times** over subjective years before the final, empty-aquarium confrontation. The boss tiers *are* those deaths, made mechanical.
 
@@ -25,7 +25,7 @@ The boss is both a **mechanical challenge** and a **narrative focal point**. His
 | Property | Value |
 |---|---|
 | Tiers | 6 |
-| Resets on death | No — reached tier persists |
+| Resets on death | No: reached tier persists |
 | Room availability | Always open |
 | Identity | Manifestation of the father (Oliwier) |
 | Design goal | Pressure & dread, not conventional monster spectacle |
@@ -34,4 +34,4 @@ The boss is both a **mechanical challenge** and a **narrative focal point**. His
     Because the boss is always accessible and never regresses, tuning has to prevent players from over-reaching into a tier they can't beat and softlocking their sense of progress. Tier gating and reward pacing are open [decisions](decisions.md).
 
 !!! note "Tiers vs. implementation"
-    The **six tiers** are the design target. In the current build the boss loads through the same room system as everything else — `room_boss_lv1…lv5.tscn`, scaled by `clamp(visits + 1, 1, 5)` — so five level variants exist today. The sixth tier and the "never resets" persistence are design intent not yet fully wired. See [Rooms](rooms.md).
+    The **six tiers** are the design target. In the current build the boss loads through the same room system as everything else (`room_boss_lv1…lv5.tscn`, scaled by `clamp(visits + 1, 1, 5)`), so five level variants exist today. The sixth tier and the "never resets" persistence are design intent not yet fully wired. See [Rooms](rooms.md).

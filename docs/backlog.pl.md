@@ -1,6 +1,6 @@
 # 11 · Backlog
 
-> Lista rzeczy do zbudowania — *lista zadań do realizacji*. Pogrupowana wg kamieni milowych, najwyższe priorytety na górze każdej grupy.
+> Lista rzeczy do zbudowania: *lista zadań do realizacji*. Pogrupowana wg kamieni milowych, najwyższe priorytety na górze każdej grupy.
 
 Legenda: <span class="pill wip">W toku</span> w trakcie · <span class="pill todo">Do zrobienia</span> nierozpoczęte · <span class="pill risk">Ryzyko</span> wymaga decyzji · <span class="pill done">Gotowe</span> dowiezione.
 
@@ -25,7 +25,7 @@ Legenda: <span class="pill wip">W toku</span> w trakcie · <span class="pill tod
 - <span class="pill done">Gotowe</span> Wspólny FSM (IDLE/REPOSITION/WINDUP/ATTACK/RECOVER) + utility AI + aktywacja wzrokiem.
 - <span class="pill done">Gotowe</span> Cztery archetypy: charger, kiter, ambusher, slammer.
 - <span class="pill done">Gotowe</span> Zdrowie, odrzut, błysk trafienia, znaczniki spawnu.
-- <span class="pill wip">W toku</span> Ścieżki obrażeń — na razie trafia tylko slammer.
+- <span class="pill wip">W toku</span> Ścieżki obrażeń: na razie trafia tylko slammer.
 - <span class="pill todo">Do zrobienia</span> Pocisk kitera + zwarcie ambushera.
 - <span class="pill risk">Ryzyko</span> Usunąć tymczasowe pływające liczby obrażeń przed wydaniem (psują klimat grozy).
 
@@ -33,7 +33,7 @@ Legenda: <span class="pill wip">W toku</span> w trakcie · <span class="pill tod
 
 - <span class="pill todo">Do zrobienia</span> Grywalne Wejdź → Przetrwaj → Zbierz → Wróć od początku do końca.
 - <span class="pill todo">Do zrobienia</span> Wypłata nagród: części broni + fragmenty fabuły po oczyszczeniu.
-- <span class="pill risk">Ryzyko</span> Krzywa nagród za ponowne wizyty — lepszy łup vs. niekontrolowana trudność.
+- <span class="pill risk">Ryzyko</span> Krzywa nagród za ponowne wizyty: lepszy łup vs. niekontrolowana trudność.
 
 ## Boss
 
@@ -50,4 +50,4 @@ Legenda: <span class="pill wip">W toku</span> w trakcie · <span class="pill tod
 ---
 
 !!! note "Źródło"
-    Oryginalny deck GDD pozostawił tę sekcję jako *„Treść wkrótce”*. Powyższe pozycje wywodzą się ze ścieżki kamieni milowych z [Zakresu](scope.md) oraz z systemów opisanych w całym wiki. Utrzymuj tę listę uczciwą — przenoś rzeczy do <span class="pill done">Gotowe</span> dopiero, gdy naprawdę są w grze.
+    Oryginalny deck GDD pozostawił tę sekcję jako *„Treść wkrótce”*. Powyższe pozycje wywodzą się ze ścieżki kamieni milowych z [Zakresu](scope.md) oraz z systemów opisanych w całym wiki. Utrzymuj tę listę uczciwą; przenoś rzeczy do <span class="pill done">Gotowe</span> dopiero, gdy naprawdę są w grze.

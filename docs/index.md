@@ -5,20 +5,20 @@ title: Home
 # Ariadna Design Wiki
 
 <p class="hero-pitch">
-A single-player, first-person sci-fi horror game. A young woman is trapped inside a labyrinth spun from her own trauma — rooms that materialize as she enters them and grow crueler every time she returns.
+A single-player, first-person sci-fi horror game. A young woman is trapped inside a labyrinth spun from her own trauma: rooms that materialize as she enters them and grow crueler every time she returns.
 </p>
 
-Ariadna kills her adoptive father and finds the facility around her folding into an impossible maze. There is no clean way out: the corridors loop, the rooms level up on every visit, and her father keeps coming back — larger, stranger, harder — until she is ready to face the thing at the center.
+Ariadna kills her adoptive father and finds the facility around her folding into an impossible maze. There is no clean way out: the corridors loop, the rooms level up on every visit, and her father keeps coming back, larger, stranger, harder, until she is ready to face the thing at the center.
 
 The design rests on three ideas: **tension through escalation**, **crafted power through modular guns**, and **psychological weight** carried by the rooms, the enemies, and the boss.
 
 ## Core identity
 
-- **Genre** — single-player, first-person sci-fi horror.
-- **Loop** — *Enter → Survive → Collect → Return stronger.* Rooms don't exist until you walk into them, and each one remembers how many times you've been there.
-- **Power** — a modular gun system: scavenge parts, assemble them on a workbench, watch the stats update live.
-- **Pressure** — a recurring boss (the father) fought across six escalating tiers that never reset once cleared.
-- **Tone** — low-poly retro, film grain, oppressive contrast. Fear-red, rust-amber, cold-memory tones, and dark voids.
+- **Genre:** single-player, first-person sci-fi horror.
+- **Loop:** *Enter → Survive → Collect → Return stronger.* Rooms don't exist until you walk into them, and each one remembers how many times you've been there.
+- **Power:** a modular gun system: scavenge parts, assemble them on a workbench, watch the stats update live.
+- **Pressure:** a recurring boss (the father) fought across six escalating tiers that never reset once cleared.
+- **Tone:** low-poly retro, film grain, oppressive contrast. Fear-red, rust-amber, cold-memory tones, and dark voids.
 
 ## Project status
 
@@ -61,4 +61,4 @@ The design rests on three ideas: **tension through escalation**, **crafted power
 ---
 
 !!! quote ""
-    This wiki records decisions — it doesn't replace making them. If a page and the game disagree, the game is right and the page is stale; fix the page.
+    This wiki records decisions; it doesn't replace making them. If a page and the game disagree, the game is right and the page is stale; fix the page.

@@ -1,5 +1,5 @@
 site_name: Ariadna Design Wiki
-site_description: Design deck & living documentation for Ariadna — a single-player first-person sci-fi horror game.
+site_description: Design deck & living documentation for Ariadna, a single-player first-person sci-fi horror game.
 site_author: cap7n
 site_url: https://cap7n.github.io/ariadna-docs/
 
@@ -7,7 +7,7 @@ repo_name: cap7n/ariadna-docs
 repo_url: https://github.com/cap7n/ariadna-docs
 edit_uri: edit/master/docs/
 
-copyright: Ariadna — MK Studios
+copyright: Ariadna, MK Studios
 
 theme:
   name: material

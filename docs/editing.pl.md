@@ -4,7 +4,7 @@ Jak pracować nad tym wiki, nie psując go. W skrócie: **edytuj Markdown, trzym
 
 ## Czym jest to wiki
 
-Stroną [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). Każda strona to plik Markdown w `docs/`. Wypchnięcie na `master` uruchamia akcję GitHub, która buduje stronę i publikuje ją na GitHub Pages — nigdy nie budujesz strony na żywo ręcznie.
+Stroną [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). Każda strona to plik Markdown w `docs/`. Wypchnięcie na `master` uruchamia akcję GitHub, która buduje stronę i publikuje ją na GitHub Pages. Nigdy nie budujesz strony na żywo ręcznie.
 
 ## Edytowanie strony
 
@@ -25,10 +25,10 @@ Każda strona istnieje dwukrotnie:
 Przełącznik języka na górnym pasku (**EN / PL**) jest generowany automatycznie z tych par przez wtyczkę `mkdocs-static-i18n`.
 
 !!! warning "Trzymaj pary w synchronizacji"
-    Gdy zmieniasz `rooms.md`, zaktualizuj też `rooms.pl.md`. Jeśli plik `.pl.md` jest brakujący, wtyczka wraca do strony angielskiej, więc nic się nie psuje — ale czytelnik po polsku po cichu dostaje angielski. Tłumacz, nie zostawiaj luk.
+    Gdy zmieniasz `rooms.md`, zaktualizuj też `rooms.pl.md`. Jeśli plik `.pl.md` jest brakujący, wtyczka wraca do strony angielskiej, więc nic się nie psuje, ale czytelnik po polsku po cichu dostaje angielski. Tłumacz, nie zostawiaj luk.
 
 !!! tip "Pisanie w jednym języku jest w porządku"
-    Jeśli tłumaczenie na bieżąco jest uciążliwe, po prostu pisz w języku, w którym czujesz się swobodnie — CI odnotuje rozjazd, a opiekun repozytorium okresowo uruchamia synchronizację tłumaczeń, która scala obie strony i przywraca zgodność par. Najpierw treść, tłumaczenie później.
+    Jeśli tłumaczenie na bieżąco jest uciążliwe, po prostu pisz w języku, w którym czujesz się swobodnie. CI odnotuje rozjazd, a opiekun repozytorium okresowo uruchamia synchronizację tłumaczeń, która scala obie strony i przywraca zgodność par. Najpierw treść, tłumaczenie później.
 
 ## Podgląd lokalny (opcjonalnie)
 
@@ -51,6 +51,6 @@ Używaj wspólnych stylów pigułek dla stanu:
 
 ## Reguły domu
 
-- **To wiki zapisuje decyzje — nie zastępuje ich podejmowania.** Jeśli gra i strona się nie zgadzają, rację ma gra; popraw stronę.
+- **To wiki zapisuje decyzje; nie zastępuje ich podejmowania.** Jeśli gra i strona się nie zgadzają, rację ma gra; popraw stronę.
 - **Najnowsze na górze** w [Logu decyzji](decisions.md) i [Backlogu](backlog.md).
-- **Nie usuwaj historii** — zastępuj ją. Odwrócone decyzje dostają nowy datowany wpis, a nie cichą edycję.
+- **Nie usuwaj historii:** zastępuj ją. Odwrócone decyzje dostają nowy datowany wpis, a nie cichą edycję.

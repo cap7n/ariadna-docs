@@ -5,20 +5,20 @@ title: Start
 # Wiki projektowe Ariadny
 
 <p class="hero-pitch">
-Jednoosobowa gra survival horror sci-fi z perspektywy pierwszej osoby. Młoda kobieta zostaje uwięziona w labiryncie utkanym z jej własnej traumy — w pokojach, które materializują się dopiero, gdy do nich wchodzi, i stają się coraz okrutniejsze za każdym powrotem.
+Jednoosobowa gra survival horror sci-fi z perspektywy pierwszej osoby. Młoda kobieta zostaje uwięziona w labiryncie utkanym z jej własnej traumy: w pokojach, które materializują się dopiero, gdy do nich wchodzi, i stają się coraz okrutniejsze za każdym powrotem.
 </p>
 
-Ariadna zabija swojego przybranego ojca i odkrywa, że ośrodek wokół niej zwija się w niemożliwy labirynt. Nie ma czystego wyjścia: korytarze zapętlają się, pokoje awansują o poziom przy każdej wizycie, a ojciec wraca raz za razem — większy, dziwniejszy, trudniejszy — dopóki nie będzie gotowa stanąć twarzą w twarz z tym, co czeka w centrum.
+Ariadna zabija swojego przybranego ojca i odkrywa, że ośrodek wokół niej zwija się w niemożliwy labirynt. Nie ma czystego wyjścia: korytarze zapętlają się, pokoje awansują o poziom przy każdej wizycie, a ojciec wraca raz za razem, większy, dziwniejszy, trudniejszy, dopóki nie będzie gotowa stanąć twarzą w twarz z tym, co czeka w centrum.
 
 Projekt opiera się na trzech ideach: **napięcie przez eskalację**, **moc budowana własnoręcznie dzięki modułowej broni** oraz **ciężar psychologiczny** niesiony przez pokoje, przeciwników i bossa.
 
 ## Tożsamość gry
 
-- **Gatunek** — jednoosobowy, first-person, sci-fi horror.
-- **Pętla** — *Wejdź → Przetrwaj → Zbierz → Wróć silniejsza.* Pokoje nie istnieją, dopóki do nich nie wejdziesz, a każdy pamięta, ile razy w nim byłaś.
-- **Moc** — modułowy system broni: zbieraj części, składaj je na warsztacie, obserwuj statystyki aktualizujące się na żywo.
-- **Presja** — powracający boss (ojciec) pokonywany na sześciu narastających poziomach, które nigdy się nie resetują.
-- **Klimat** — low-poly retro, ziarno filmowe, przytłaczający kontrast. Barwy strachu (czerwień), rdzawy bursztyn, zimne tony pamięci i mroczne pustki.
+- **Gatunek:** jednoosobowy, first-person, sci-fi horror.
+- **Pętla:** *Wejdź → Przetrwaj → Zbierz → Wróć silniejsza.* Pokoje nie istnieją, dopóki do nich nie wejdziesz, a każdy pamięta, ile razy w nim byłaś.
+- **Moc:** modułowy system broni: zbieraj części, składaj je na warsztacie, obserwuj statystyki aktualizujące się na żywo.
+- **Presja:** powracający boss (ojciec) pokonywany na sześciu narastających poziomach, które nigdy się nie resetują.
+- **Klimat:** low-poly retro, ziarno filmowe, przytłaczający kontrast. Barwy strachu (czerwień), rdzawy bursztyn, zimne tony pamięci i mroczne pustki.
 
 ## Status projektu
 
@@ -61,4 +61,4 @@ Projekt opiera się na trzech ideach: **napięcie przez eskalację**, **moc budo
 ---
 
 !!! quote ""
-    To wiki zapisuje decyzje — nie zastępuje ich podejmowania. Jeśli strona i gra się nie zgadzają, to gra ma rację, a strona jest nieaktualna; popraw stronę.
+    To wiki zapisuje decyzje; nie zastępuje ich podejmowania. Jeśli strona i gra się nie zgadzają, to gra ma rację, a strona jest nieaktualna; popraw stronę.

@@ -1,15 +1,15 @@
 # 10 · Log decyzji
 
-> Bieżący zapis decyzji projektowych — *log decyzji projektowych* — abyśmy pamiętali **dlaczego**, a nie tylko **co**.
+> Bieżący zapis decyzji projektowych (*log decyzji projektowych*), abyśmy pamiętali **dlaczego**, a nie tylko **co**.
 
-Każdy wpis jest krótki: decyzja, data i uzasadnienie. Gdy decyzja zostaje odwrócona, nie usuwamy jej — dodajemy nowy wpis, który ją zastępuje, aby historia pozostała uczciwa.
+Każdy wpis jest krótki: decyzja, data i uzasadnienie. Gdy decyzja zostaje odwrócona, nie usuwamy jej; dodajemy nowy wpis, który ją zastępuje, aby historia pozostała uczciwa.
 
 ## Jak dodać wpis
 
 Skopiuj blok, uzupełnij, wstaw najnowsze na górze:
 
 ```markdown
-### RRRR-MM-DD — Krótki tytuł
+### RRRR-MM-DD: Krótki tytuł
 **Decyzja:** co teraz robimy.
 **Dlaczego:** uzasadnienie / co pokonało.
 **Status:** Aktywna · Zastąpiona przez <data>.
@@ -17,7 +17,7 @@ Skopiuj blok, uzupełnij, wstaw najnowsze na górze:
 
 ## Log
 
-### 2026-07-17 — Moodboard zablokowany
+### 2026-07-17: Moodboard zablokowany
 **Decyzja:** Zamrozić moodboard środowiska (obraz hero + dwanaście referencji) jako źródło prawdy dla klimatu.
 **Dlaczego:** Pytania o art potrzebują jednego miejsca do sprawdzania, zamiast sporów o gust przy każdym asserta.
 **Status:** Aktywna.
@@ -29,7 +29,7 @@ Skopiuj blok, uzupełnij, wstaw najnowsze na górze:
 
 ### Pokoje materializują się przy wejściu
 **Decyzja:** Pokoje nie istnieją, dopóki się do nich nie wejdzie; każdy ma poziom rosnący z wizytami.
-**Dlaczego:** Kluczowe dla filaru „znajomość to pułapka” — czyni zawracanie realnym kosztem, a nie darmowym resetem.
+**Dlaczego:** Kluczowe dla filaru „znajomość to pułapka”: czyni zawracanie realnym kosztem, a nie darmowym resetem.
 **Status:** Aktywna.
 
 ### Poziom bossa nigdy się nie resetuje
@@ -39,7 +39,7 @@ Skopiuj blok, uzupełnij, wstaw najnowsze na górze:
 
 ### Broń jest składana, nie znajdowana w całości
 **Decyzja:** Korpus + Chwyt obowiązkowe, Lufa / Kolba / Celownik opcjonalne, statystyki na żywo na warsztacie.
-**Dlaczego:** Moc powinna wydawać się *budowana* — zestaw czytelnych kompromisów, a nie rozwijana lista statystyk.
+**Dlaczego:** Moc powinna wydawać się *budowana*: zestaw czytelnych kompromisów, a nie rozwijana lista statystyk.
 **Status:** Aktywna.
 
 ---

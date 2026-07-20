@@ -36,9 +36,9 @@ Pętla rozgrywki grywalna     ◀── punkt zwrotny: czy to już frajda?
 
 ## Kolejność rozwoju
 
-1. **Najpierw ustal grywalną pętlę rozgrywki** — to fundament, na którym wisi wszystko inne.
+1. **Najpierw ustal grywalną pętlę rozgrywki**: to fundament, na którym wisi wszystko inne.
 2. **Sfinalizuj generację pokoi i progresję bossa wcześnie**, zanim treść zacznie od nich zależeć.
-3. **Dodawaj treść dopiero po potwierdzeniu, że pętla wciąga** — żadnego budowania pokoi dla pętli, która nie jest frajdą.
+3. **Dodawaj treść dopiero po potwierdzeniu, że pętla wciąga**: żadnego budowania pokoi dla pętli, która nie jest frajdą.
 4. **Zakończ dźwiękiem, dopracowaniem UI i wydajnością.**
 
 ---
