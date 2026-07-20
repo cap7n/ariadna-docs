@@ -27,6 +27,9 @@ The language switcher in the top bar (**EN / PL**) is generated automatically fr
 !!! warning "Keep pairs in sync"
     When you change `rooms.md`, update `rooms.pl.md` too. If a `.pl.md` file is missing, the plugin falls back to the English page, so nothing breaks — but the Polish reader silently gets English. Translate, don't leave gaps.
 
+!!! tip "Writing in one language is fine"
+    If translating as you go is a hassle, just write in whichever language you're comfortable in — the CI will note the drift, and the maintainer periodically runs a translation sync that merges both sides and brings the pairs back together. Content first, translation later.
+
 ## Previewing locally (optional)
 
 ```bash

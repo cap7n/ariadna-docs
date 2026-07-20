@@ -27,6 +27,9 @@ Przełącznik języka na górnym pasku (**EN / PL**) jest generowany automatyczn
 !!! warning "Trzymaj pary w synchronizacji"
     Gdy zmieniasz `rooms.md`, zaktualizuj też `rooms.pl.md`. Jeśli plik `.pl.md` jest brakujący, wtyczka wraca do strony angielskiej, więc nic się nie psuje — ale czytelnik po polsku po cichu dostaje angielski. Tłumacz, nie zostawiaj luk.
 
+!!! tip "Pisanie w jednym języku jest w porządku"
+    Jeśli tłumaczenie na bieżąco jest uciążliwe, po prostu pisz w języku, w którym czujesz się swobodnie — CI odnotuje rozjazd, a opiekun repozytorium okresowo uruchamia synchronizację tłumaczeń, która scala obie strony i przywraca zgodność par. Najpierw treść, tłumaczenie później.
+
 ## Podgląd lokalny (opcjonalnie)
 
 ```bash
