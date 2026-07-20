@@ -28,6 +28,16 @@ jobs:
         env:
           GITHUB_EVENT_BEFORE: ${{ github.event.before }}
         run: bash .github/check_lang_sync.sh
+      - name: Count edits since last translation sync
+        run: |
+          git fetch -q origin tag i18n-synced 2>/dev/null || true
+          if git rev-parse -q --verify i18n-synced >/dev/null 2>&1; then
+            count=$(git rev-list --count i18n-synced..HEAD -- docs/)
+          else
+            count=0
+          fi
+          echo "SYNC_COUNT=$count" >> "$GITHUB_ENV"
+          echo "Edits (commits touching docs/) since i18n-synced tag: $count"
       - run: mkdocs build --strict
       - uses: actions/upload-pages-artifact@v3
         with:

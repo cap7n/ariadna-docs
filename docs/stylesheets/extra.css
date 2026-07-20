@@ -77,3 +77,18 @@
 .grid.cards > ul > li {
   border-radius: 0.6rem;
 }
+
+/* Sync-debt announcement bar (overrides/main.html). Subtle counter below
+   the threshold; loud red banner once EN/PL drift needs a sync. */
+.md-banner .sync-count {
+  font-size: 0.68rem;
+  opacity: 0.75;
+}
+.md-banner .sync-warn {
+  font-weight: 700;
+  font-size: 0.78rem;
+}
+.md-banner:has(.sync-warn) {
+  background: var(--ariadna-red);
+  color: #fff;
+}

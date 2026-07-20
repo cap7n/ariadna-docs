@@ -11,6 +11,7 @@ copyright: Ariadna — MK Studios
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   font:
     text: Inter
@@ -101,6 +102,9 @@ extra_css:
   - stylesheets/extra.css
 
 extra:
+  # Injected by CI: commits touching docs/ since the i18n-synced tag.
+  # Drives the sync-debt banner (see overrides/main.html). "0" hides it.
+  sync_count: !ENV [SYNC_COUNT, "0"]
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/cap7n
