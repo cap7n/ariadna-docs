@@ -3,6 +3,7 @@ name: Deploy docs
 on:
   push:
     branches: [main, master]
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -10,27 +11,36 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: pages
-  cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history: the last-updated plugin reads git dates, and the
+          # EN/PL sync check diffs against the previous push.
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Check EN/PL pages stay in sync
+        env:
+          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
+        run: bash .github/check_lang_sync.sh
       - run: mkdocs build --strict
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
   deploy:
+    # Pull requests only validate the build — never deploy.
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
