@@ -1,7 +1,5 @@
 ---
 title: Start
-hide:
-  - navigation
 ---
 
 # Wiki projektowe Ariadny
