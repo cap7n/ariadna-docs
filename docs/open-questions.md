@@ -18,6 +18,18 @@ Copy the block, fill it in, put newest at the top:
 
 ## Questions
 
+### Music stereo split by instruments
+**The question:** should the soundtrack split instruments across stereo channels (or spatial positions) so each instrument can be manipulated independently at runtime, rather than baking a pre-mixed stereo track?
+**Why it's open:** dynamic instrument-level control enables reactive music (muting/soloing layers, crossfading intensity per instrument) could deepen psychological horror by mirroring Ariadna's state, but requires authoring stems per track, a runtime mixer setup, and may clash with spatial audio priorities.
+**Options on the table:** baked stereo stems per intensity tier (simplest, least flexible), runtime stereo panning per stem with automation curves, or full 3D spatial audio per instrument tied to room geometry (max flexibility, highest authoring cost).
+**Owner:** unassigned.
+
+### Spatial music mix for immersion
+**The question:** should different instruments be placed at different positions around the room to create a stereo effect and push, rather than a flat stereo mix?
+**Why it's open:** spatial music could deepen immersion and disorientation — which fits the horror tone — but it adds authoring complexity (per-room mix layouts) and risks conflicting with gameplay sound cues.
+**Options on the table:** flat stereo mix (simplest), per-room 3D spatialisation with instruments anchored to room geometry, or a hybrid where only specific atmospheric layers are spatialised while core rhythm/tension tracks stay in stereo.
+**Owner:** unassigned.
+
 ### Final gun part stat weightings
 **The question:** what damage / accuracy / recoil / weight values should each part variant actually carry?
 **Why it's open:** the [modular gun system](guns.md) plumbing is done, but the numbers are still placeholders. Getting this wrong either makes every build feel the same or makes one part combo strictly best.

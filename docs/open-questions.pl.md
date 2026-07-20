@@ -18,6 +18,12 @@ Skopiuj blok, uzupełnij, wstaw najnowsze na górze:
 
 ## Pytania
 
+### Przestrzenny miks muzyki dla immersji
+**Pytanie:** czy różne instrumenty powinny być umiejscowione w różnych pozycjach wokół pokoju, aby stworzyć efekt stereo i "push", zamiast płaskiego miksu stereo?
+**Dlaczego jest otwarte:** przestrzenna muzyka może pogłębić immersję i dezorientację — co pasuje do klimatu horroru — ale zwiększa złożoność produkcji (układy miksu per pokój) i ryzykuje konflikt z dźwiękami rozgrywki.
+**Opcje na stole:** płaski miks stereo (najprostszy), przestrzenna 3D z instrumentami zakotwiczonymi w geometrii pokoju, albo hybryda gdzie tylko wybrane warstwy atmosferyczne są przestrzenne, a główne ścieżki rytmu/napięcia pozostają w stereo.
+**Odpowiedzialny:** nieprzypisany.
+
 ### Ostateczne wagi statystyk części broni
 **Pytanie:** jakie wartości obrażeń / celności / odrzutu / wagi powinna faktycznie nieść każda wersja części?
 **Dlaczego jest otwarte:** instalacja [modułowego systemu broni](guns.md) jest gotowa, ale liczby to wciąż placeholdery. Złe ustawienie sprawi, że albo każdy zestaw będzie odczuwalny tak samo, albo jedna kombinacja części stanie się jednoznacznie najlepsza.
