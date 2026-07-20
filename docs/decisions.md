@@ -17,6 +17,11 @@ Copy the block, fill it in, put newest at the top:
 
 ## Log
 
+### Open: Spatial audio for music
+**Question:** Should different instruments be placed at different positions around the room to create a stereo effect and push, rather than a flat stereo mix?
+**Why:** Could deepen immersion and disorientation in a horror context, but may conflict with readability or require per-room audio authoring.
+**Status:** Open.
+
 ### 2026-07-17: Moodboard locked
 **Decision:** Freeze the environment moodboard (hero image + twelve references) as the tone source of truth.
 **Why:** Art questions need one place to check against instead of per-asset taste debates.
