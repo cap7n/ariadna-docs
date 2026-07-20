@@ -3,7 +3,7 @@
 {#
   Sync-debt announcement bar.
   SYNC_COUNT is injected at build time by CI (commits touching docs/ since
-  the i18n-synced tag). 0 = no bar. 1-9 = subtle counter. 10+ = red warning.
+  the i18n-synced tag). 0-9 = subtle counter (always visible). 10+ = red warning.
 #}
 {% block announce %}
   {% set n = config.extra.sync_count | int %}
@@ -16,7 +16,7 @@
         ⚠️ {{ n }} edits since the last translation sync — EN and PL are drifting. Time to run /sync-translations.
       {% endif %}
     </span>
-  {% elif n > 0 %}
+  {% else %}
     <span class="sync-count">
       {% if pl %}
         Zmiany od ostatniej synchronizacji tłumaczeń: {{ n }}
