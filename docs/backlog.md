@@ -45,7 +45,7 @@ Legend: <span class="pill wip">WIP</span> in progress · <span class="pill todo"
 - <span class="pill wip">WIP</span> Environment moodboard → in-engine material pass.
 - <span class="pill todo">Todo</span> Post stack: film grain, vignette, chromatic aberration tuning.
 - <span class="pill todo">Todo</span> Audio pass.
-- <span class="pill risk">Risk</span> Music stem authoring & runtime stereo/instrument split. See [Open Questions](open-questions.md#music-stereo-split-by-instruments).
+- <span class="pill todo">Todo</span> Music stereo split by instruments. See [Open Questions](open-questions.md#music-stereo-split-by-instruments).
 - <span class="pill todo">Todo</span> Performance pass (Forward+ / D3D12).
 
 ---

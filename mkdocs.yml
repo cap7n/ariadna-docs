@@ -126,7 +126,7 @@ nav:
       - Engine & Runtime: tech.md
   - Project:
       - Scope & Milestones: scope.md
-      - Decision Log: decisions.md
       - Open Questions: open-questions.md
+      - Decision Log: decisions.md
       - Backlog: backlog.md
       - Editing Guide: editing.md
