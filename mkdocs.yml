@@ -16,8 +16,9 @@ theme:
   font:
     text: Inter
     code: JetBrains Mono
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   icon:
-    logo: material/spider-thread
     repo: fontawesome/brands/github
   features:
     - navigation.tracking
